@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="144.08299"
+   height="144"
+   id="instagram"
+   version="1.1"
+   sodipodi:docname="instagram.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="namedview2"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <path
+     d="m 72.041,11.166 c -33.543,0 -60.833,27.29 -60.833,60.834 0,33.544 27.29,60.834 60.833,60.834 33.544,0 60.834,-27.29 60.834,-60.834 0,-33.544 -27.291,-60.834 -60.834,-60.834 z m 0,115.668 c -30.235,0 -54.833,-24.599 -54.833,-54.834 0,-30.235 24.598,-54.834 54.833,-54.834 30.235,0 54.834,24.599 54.834,54.834 0,30.235 -24.599,54.834 -54.834,54.834 z"
+     id="path1"
+     style="fill:#ff664b;fill-opacity:1" />
+  <path
+     d="m 91.076,42.701 h -38.07 c -5.615,0 -10.184,4.568 -10.184,10.184 V 91.13 c 0,5.615 4.568,10.184 10.184,10.184 h 38.069 c 5.615,0 10.184,-4.568 10.184,-10.184 V 52.884 c 0,-5.615 -4.568,-10.183 -10.183,-10.183 z M 80.847,71.899 c 0,4.856 -3.95,8.806 -8.806,8.806 -4.856,0 -8.806,-3.95 -8.806,-8.806 0,-2.409 0.974,-4.593 2.546,-6.184 H 78.3 a 8.767,8.767 0 0 1 2.547,6.184 z M 83.4,50.849 h 8.92 v 9.189 H 83.4 Z m 7.676,44.464 H 53.006 A 4.189,4.189 0 0 1 48.822,91.129 V 65.715 h 9.784 a 14.699,14.699 0 0 0 -1.371,6.184 c 0,8.165 6.642,14.806 14.806,14.806 8.164,0 14.806,-6.642 14.806,-14.806 0,-2.209 -0.5,-4.299 -1.371,-6.184 h 9.783 v 25.414 a 4.189,4.189 0 0 1 -4.183,4.184 z"
+     id="path2"
+     style="fill:#ff664b;fill-opacity:1" />
+</svg>
