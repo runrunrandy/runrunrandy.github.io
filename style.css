@@ -7,7 +7,7 @@ rgba(255,102,75,1)
 body {
     margin: 0px;
     width: 100%;
-    font-family: arial;
+    font-family: "Montserrat", Arial, sans-serif;
     
 } 
 
@@ -20,37 +20,227 @@ a {
     text-decoration: none;
 }
 
-.title-image {
-    overflow: hidden;
+.indexNavImage{
+
+    
+    
+    
+    display: flex;
+  justify-content: center;  
+  align-items: center;   
 }
 
-.title-image img {
+
+@media (min-aspect-ratio: 120/100) {
+    .indexNavImageWrapper  {
     position: relative;
-    height: 100vh;
-    
-    display: block;
+    display: flex;
+    width: 100%;
+    background-image: url('images/rrr-wl-2x1.png');
+    justify-content: center;  
+    align-items: center; 
+    }
+
+    .catchphrase{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #303030;
+    margin-top: 5vh;
+    font-family: "Montserrat", Arial, sans-serif;
+    height: 100px;
+    }
+
+    .sub-catchphrase{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #303030;
+    margin-top: -3vh;
+    font-family: "Montserrat", Arial, sans-serif;
+    height: 100px;
+    }
+
+    .sub-catchphrase h4{
+    color: gray;
+    font-size: 2vw;
+    font-weight: 100;
+    position: relative;
+    text-transform: uppercase;
+    top: 0;
+    }
+
+    .catchphrase h3{
+    font-size: 4.5vw;
+    font-weight: 100;
+    text-transform: uppercase;
+    bottom: 0;
+    }
+
+    .container-container {
+    margin-top: 18%;
+    }
+
+    .center-image {
+    height: 17vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    margin-top: 10vh;
+    }
 }
+
+@media (min-aspect-ratio: 3/4) and (max-aspect-ratio: 120/100) {
+    .indexNavImageWrapper  {
+    position: relative;
+    display: flex;
+    width: 100%;
+    background-image: url('images/rrr-tablet.jpg'); 
+    justify-content: center;  
+    align-items: center;
+    }
+
+    .catchphrase{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #303030;
+    margin-top: 7vh;
+    font-family: "Montserrat", Arial, sans-serif;
+    height: 100px;
+    }
+
+    .sub-catchphrase{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #303030;
+    margin-top: -5vh;
+    font-family: "Montserrat", Arial, sans-serif;
+    height: 100px;
+    }
+
+    .sub-catchphrase h4{
+    color: gray;
+    font-size: 2vw;
+    font-weight: 100;
+    position: relative;
+    text-transform: uppercase;
+    top: 0;
+    }
+
+    .catchphrase h3{
+    font-size: 4.5vw;
+    font-weight: 100;
+    text-transform: uppercase;
+    bottom: 0;
+    }
+
+    .container-container {
+    margin-top: 7vh;
+    }
+
+    .center-image {
+    height: 17vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    margin-top: 15vh;
+    }
+}
+
+@media (max-aspect-ratio: 3/4) {
+    .indexNavImageWrapper  {
+    position: relative;
+    display: flex;
+    width: 100%;
+    background-image: url('images/rrr-smartphone-2.jpg'); 
+    justify-content: center;  
+    align-items: center;
+    }
+
+    .catchphrase{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #303030;
+    margin-top: 3vh;
+    font-family: "Montserrat", Arial, sans-serif;
+    height: 100px;
+    }
+
+    .sub-catchphrase{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #303030;
+    margin-top: -7vh;
+    font-family: "Montserrat", Arial, sans-serif;
+    height: 100px;
+    }
+
+    .sub-catchphrase h4{
+    color: gray;
+    font-size: 2.5vw;
+    font-weight: 100;
+    position: relative;
+    text-transform: uppercase;
+    top: 0;
+    }
+
+    .catchphrase h3{
+   /* font-size: 4.5vw;*/
+    font-size: 6vw;
+    font-weight: 100;
+    text-transform: uppercase;
+    bottom: 0;
+    }
+
+    .container-container {
+    margin-top: 8vh;
+    }
+
+    .center-image {
+    height: 17vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    margin-top: 15vh;
+    }
+}
+
 
 .title-logo {
-    position: absolute;
-    width: 80%;
-    height: 100%;
-    top: 10%;
-    left: 10%;
-    right:auto;
-    margin: 0 auto;
-    background-color: rgba(10,30,50,.0);
-    opacity: 100%;
+  align-items: center;  
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;  
+  display: flex;
+  flex-direction: column;
 }
 
 
-.title-logo img {
-    width: 10%;
-    height: auto;
-    left: 45%;
-    top: 0%;
-    align-content: center;
-    object-fit: contain;
+
+.center-image img {
+  height: 100%;
 }
 
 
@@ -189,7 +379,6 @@ header {
 
 .header-div-middle-black {
     position: relative;
-    z-index: 
 }
 
 .header-logo-black {
@@ -200,7 +389,7 @@ header {
 
 .header-div-middle-pink {
     position: absolute;
-    top: 0
+    top: 0;
 }
 
 .header-logo-pink {
@@ -280,36 +469,37 @@ header {
       color: white;
 }
 
-.email-subscription-title{
-    display: flex;
-  justify-content: center;
-  align-items: center;
-      color: 303030;
-    padding-top: 2%;
-    font-family: "Montserrat", serif;
-}
 
-.email-subscription-title h4{
-   margin-top: 12%;
-   text-align: center;
-    color: gray;
-    margin-top: -4%;
-    margin-bottom: 4%;
-    font-size: 2vw;
-    
-}
 
-.email-subscription-title h3{
-    font-size: 4vw;
-    font-weight: 100;
-    padding: 0px;
-    margin: 25px 0;
-    text-transform: uppercase;
-}
+
 
 .container-container {
     text-align: center;
     padding-bottom: 100px;
+    width: 500px;
+    padding: 1vw;
+    background-color: rgba(255,255,255,0.8);
+    display: flex;
+      justify-content: center;
+  align-items: center;
+    flex-direction: column;
+        border-radius: 10px;
+    position: absolute;
+    margin-top: 500px;
+    box-shadow: 0 0 25px rgba(1,1,1,0.4);
+}
+
+
+.cc-text {
+    
+}
+
+.cc-text h4 {
+    font-family: "Montserrat", Arial, sans-serif;
+    font-size: .9vw;
+    width: 700px;
+        color: gray;
+    line-height: 1.6;
 }
 
 .container {
@@ -321,6 +511,7 @@ header {
   justify-content: center;
   align-items: center;
     max-width: auto;
+    width: auto;
 }
 
 
@@ -331,8 +522,9 @@ header {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: .9em;
     padding: 20px;
+    font-weight: bold;
 }
 
 .button:hover {
@@ -344,9 +536,9 @@ header {
 .subscribe-input {
     background: rgba(0,0,0,0);
     border: none;
-    font-size: 16px;
-    color: white;
-    padding: 20px 70px 20px 20px;
+    font-size: .9em;
+    color: rgba(255,102,75,1);
+    padding: 20px 3em 20px 20px;
 }
 
 .subscribe-input:focus {
@@ -395,6 +587,15 @@ hr {
     margin-right: 0px;
     max-width: 10px;
 }
+.social-media-box-t {
+    display: grid;
+    padding: 0px;
+    grid-template-columns: 40px 40px 40px 35px;
+    margin-left: 0px;
+    margin-right: 0px;
+    max-width: 400px;
+    margin-top: 15px
+}
 
 .social-media-icon{
     width: 35px;
@@ -407,13 +608,34 @@ hr {
     border-style: solid;
 }
 
+.social-media-icon-t{
+    width: 35px;
+    height: 35px;
+    margin: 0px;
+    cursor: pointer;
+    border-radius: 20px;
+    border-width: 1.5px;
+    border-color: rgba(255,255,255,0);
+    border-style: solid;
+}
+
 .social-media-icon img{
+    width: 35px;
+}
+
+.social-media-icon-t img{
     width: 35px;
 }
 
 .social-media-icon:hover{
     border-width: 1.5px;
     border-color: white;
+    border-style: solid;
+}
+
+.social-media-icon-t:hover{
+    border-width: 1.5px;
+    border-color: rgba(255,102,75,1);
     border-style: solid;
 }
 
