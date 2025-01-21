@@ -65,102 +65,89 @@
 </div>
      
 
-    
+
 
   
 
+<div class="footer-box">
+    <div class="footer">
+        <div class=email-subscription>
+            <h3><em>Join</em><br> The Waitlist</h3>
+        </div>
+        <div class = "blurb">
+            <h3>Be the first to get exclusive updates<br> and launch day deals!</h3>
+        </div>
+        <div class="container-container">
+            <form id="mailinglist">
+            <div class="container">
+                
+                <input class="subscribe-input" id="subscribe-input" type="email" placeholder="Enter your email" name="entry.2109498935" required>
+                <input class="button" type="submit" value="Subscribe">
+            </div>
+            </form> 
 
-<div class="footer">
-    <div class=email-subscription>
-        <h3><em>Join</em> The Waitlist</h3>
-    </div>
-    
-    
-    <div class="container-container">
-        <form action="/action_page.php">
-          <div class="container">
 
-            <input class="subscribe-input" type="text" placeholder="Enter your email" name="mail" required>
-            <input class="button" type="button" value="Subscribe">
-          </div>
-        </form> 
-    </div>
+            <script>
+                document.getElementById("mailinglist").addEventListener("submit", function(e) {
+                  e.preventDefault();
+                  var formData = new FormData(this);
+                  var xhr = new XMLHttpRequest();
+                  xhr.open("POST", "https://docs.google.com/forms/d/e/1FAIpQLSeBPcdxr4isoNwHOoxR62nqPAX-IaKHRwkz_QyX1CSAf25FtA/formResponse", true);
+                  xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+                  xhr.send(new URLSearchParams(formData).toString());
+                });
+
+            
+            </script>
+
+            <script>
+                document.getElementById('mailinglist').addEventListener('submit', function(event) {
+                    event.preventDefault();  // Prevent the form from submitting to the server
+                    
+                    const inputField = document.getElementById('subscribe-input');
+                    const successMessage = "Success!";
+
+                    // Show the success message in the placeholder
+                    inputField.setAttribute('placeholder', successMessage);
+
+                    // Optionally, you can clear the input field or reset the form here
+                    inputField.value = '';  // Clear the input value if needed
+                });
+            </script>
+
+            
+
+
+
+
+
+            <div class = "social-media-box-t"> 
+                <div class="social-media-icon-t">
+                    <a href="https://www.tiktok.com/@runrunrandy" target="_blank"><img src=images/tiktok-144x144.png></a>
+                </div>
+                <div class="social-media-icon-t">
+                    <a href="https://www.instagram.com/we_are_runrunrandy/" target="_blank"><img src=images/instagram-144x144.svg></a>
+                </div>
+                <div class="social-media-icon-t">
+                    <a href="https://www.facebook.com/WeAreRunRunRandy" target="_blank"><img src=images/facebook-144x144.svg></a>
+                </div>
+                <div class="social-media-icon-t">
+                    <a href="https://www.youtube.com/@We_Are_RunRunRandy" target="_blank"><img src=images/youtube-144x144.svg></a>
+                </div>
+                <div class="social-media-icon-t">
+                    <a href="https://x.com/getrunrunrandy" target="_blank"><img src=images/twitter-144x144.svg></a>
+                </div>
+            </div>
+        </div>
+    </div> 
+</div>
     <hr />
     
-
+<div class="about-us">
+    <h2>We’re here to make sure you get the perfect balance of style, comfort, and a little bit of cheeky fun. Our mission? To create running gear that gives you the freedom to move, while turning heads and giving a nod to the classic look of the ultimate short short. Go ahead, show a little leg—your run just got a whole lot more interesting.</h2>
+</div>
 <div class = "footer-details">
-    <div class = "footer-details-column">
-        <div class = "footer-details-header">
-            <a href="#">Run Run Randy</a>
-        </div>
-        <div class = "footer-details-contents">
-            <div class="footerNav" id="myFooterNav">
-                <a href="#">About</a>
-            </div>
-            <div class="footerNav" id="myFooterNav">
-                <a href="#">Vendor Locator</a>
-            </div>
-            <div class="footerNav" id="myFooterNav">
-                <a href="#">Careers</a>
-            </div>
-            <div class="footerNav" id="myFooterNav">
-                <a href="#">123 Main Street</a><br>
-                <a href="#">London, UK</a><br>
-                <a href="#">SW1 23TB</a>
-            </div>
-        </div>  
-    </div>
-    <div class = "footer-details-column">
-        <div class = "footer-details-header">
-            <a href="#">Service</a>
-        </div>
-        <div class = "footer-details-contents">
-            <div class="footerNav" id="myFooterNav">
-                <a href="#">Returns &amp; Exchanges</a>
-            </div>
-            <div class="footerNav" id="myFooterNav">
-                <a href="#">FAQs</a>
-            </div>
-            <div class="footerNav" id="myFooterNav">
-                <a href="#">Contact</a>
-            </div>
-        </div>  
-    </div>
-    <div class = "footer-details-column">
-        <div class = "footer-details-header">
-            <a href="#">Legal</a>
-        </div>
-        <div class = "footer-details-contents">
-            <div class="footerNav" id="myFooterNav">
-                <a href="#">Terms &amp; Conditions</a>
-            </div>
-            <div class="footerNav" id="myFooterNav">
-                <a href="#">Cookie Policy</a>
-            </div>
-            <div class="footerNav" id="myFooterNav">
-                <a href="#">Privacy Policy</a>
-            </div>
-        </div>  
-    </div>
-    <div class = "footer-details-column">
-        <div class = "footer-details-header">
-            <a href="#">Follow Us</a>
-        </div>
-        <div class = "social-media-box"> 
-            <div class="social-media-icon">
-                <a href="https://www.instagram.com/eric_c_jackson/"><img src=images/instagram-144x144.svg></a>
-            </div>
-            <div class="social-media-icon">
-                <img src=images/facebook-144x144.svg>
-            </div>
-            <div class="social-media-icon">
-                <img src=images/youtube-144x144.svg>
-            </div>
-            <div class="social-media-icon">
-                <img src=images/twitter-144x144.svg>
-            </div>
-        </div>
-    </div>
+    
 </div>
     <div class = "footer-logo">
         <div class = "hr-line">
@@ -180,7 +167,7 @@
 
     
     
-</div>
+
     
 
 
