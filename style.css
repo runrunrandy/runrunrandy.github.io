@@ -8,7 +8,7 @@ body {
     margin: 0px;
     width: 100%;
     font-family: "Montserrat", Arial, sans-serif;
-    
+    background-color: rgba(10,30,50,1);
 } 
 
 ul, li {
@@ -79,10 +79,6 @@ a {
     bottom: 0;
     }
 
-    .container-container {
-    margin-top: 18%;
-    }
-
     .center-image {
     height: 17vh;
     width: 100%;
@@ -142,10 +138,6 @@ a {
     font-weight: 100;
     text-transform: uppercase;
     bottom: 0;
-    }
-
-    .container-container {
-    margin-top: 7vh;
     }
 
     .center-image {
@@ -208,10 +200,6 @@ a {
     font-weight: 100;
     text-transform: uppercase;
     bottom: 0;
-    }
-
-    .container-container {
-    margin-top: 8vh;
     }
 
     .center-image {
@@ -447,15 +435,25 @@ header {
 }
 
 /*-------------------------------------------------------------------------------------Footer*/
+.footer-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .footer {
     background-color: rgba(10,30,50,1);
     height: auto;
     color: white;
+    border: 2px solid white;
+    position: relative;
+    padding: 50px;
+    margin: 75px;
 }
 
 .footer h3{
-    padding-top: 100px ;
+    margin-top: 0px ;
     margin-bottom: 35px;
     font-weight: 100;
     font-size:2.5vw;
@@ -464,15 +462,29 @@ header {
 
 .email-subscription{
     display: flex;
-  justify-content: center;
-  align-items: center;
+
       color: white;
 }
 
+.email-subscription h3{
+    font-size: 3em;
+}
 
+.blurb h3{
+ font-size: 1.2em;
+ margin-top: -1.5em;
+ color: lightgray;
+}
 
+.container-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
 
-
+/*
 .container-container {
     text-align: center;
     padding-bottom: 100px;
@@ -488,7 +500,7 @@ header {
     margin-top: 500px;
     box-shadow: 0 0 25px rgba(1,1,1,0.4);
 }
-
+*/
 
 .cc-text {
     
@@ -582,7 +594,7 @@ hr {
 .social-media-box {
     display: grid;
     padding: 0px;
-    grid-template-columns: 40px 40px 40px 35px;
+    grid-template-columns: 40px 40px 40px 40px;
     margin-left: 0px;
     margin-right: 0px;
     max-width: 10px;
@@ -590,11 +602,11 @@ hr {
 .social-media-box-t {
     display: grid;
     padding: 0px;
-    grid-template-columns: 40px 40px 40px 35px;
+    grid-template-columns: 40px 40px 40px 40px 40px;
     margin-left: 0px;
     margin-right: 0px;
     max-width: 400px;
-    margin-top: 15px
+    margin-top: 20px;
 }
 
 .social-media-icon{
@@ -635,7 +647,7 @@ hr {
 
 .social-media-icon-t:hover{
     border-width: 1.5px;
-    border-color: rgba(255,102,75,1);
+    border-color: white;
     border-style: solid;
 }
 
@@ -664,4 +676,23 @@ hr {
     margin-top: auto;
     margin-bottom: auto;
     background-color: #484848;
+}
+
+
+.footer-div-middle-pink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.about-us h2 {
+    font-family: "Montserrat", Arial, sans-serif;
+    line-height: 1.6;
+    font-weight: 100;
+    color: lightgray
 }
