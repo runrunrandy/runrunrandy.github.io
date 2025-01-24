@@ -752,3 +752,18 @@ hr {
     font-weight: 100;
     color: lightgray
 }
+
+
+
+.x-troll-box {
+    display: flex;
+    justify-content: center;  
+    align-items: center;  
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+}
+
+.x-troll img{
+    Height: 60vh;
+}
